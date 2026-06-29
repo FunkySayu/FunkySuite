@@ -8,7 +8,7 @@ eventFrame:SetScript("OnEvent", function(self, event, ...)
         local name = ...
         if name == AddonName then
             self:UnregisterEvent("ADDON_LOADED")
-            print("|cff00ff00FunkySuite Loaded.|r Use /fe to start.")
+            print("|cff00ff00FunkySuite Loaded.|r")
         end
     end
 end)
