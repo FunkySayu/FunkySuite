@@ -1,0 +1,7 @@
+## Interface: 110000, 110002
+## Title: FunkySuite
+## Notes: Collection of utilities for FunkySayu.
+## Author: FunkySayu
+## SavedVariables: FunkySuiteDB
+
+Init.lua

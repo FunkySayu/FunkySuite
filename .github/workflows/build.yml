@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Package
         uses: BigWigsMods/packager@master
+        with:
+          args: -p 1592358 -a QNlzx4Ke
         env:
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}

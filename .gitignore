@@ -1,0 +1,24 @@
+# World of Warcraft AddOn files to exclude from version control
+
+# WoW client-generated files
+*.old
+*.bak
+
+# Saved variables / player data (generated at runtime in WTF/)
+WTF/
+SavedVariables/
+
+# Blizzard error logs
+WoWCombatLog.txt
+WoWCombatLog.txt.*
+Errors.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*~
